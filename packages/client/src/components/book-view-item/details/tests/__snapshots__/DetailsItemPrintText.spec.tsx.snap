@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsItemPrintText DetailsItemPrintText snapshot 1`] = `
+<span
+  class="book-view__details-list-item-value"
+  data-testid="item-value"
+  title="test"
+>
+  test
+</span>
+`;

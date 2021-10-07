@@ -1,0 +1,119 @@
+[33mcommit 6d0c49eca287e698dc47d9e5ed6f169cb8656e95[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 28 17:58:54 2021 +0300
+
+    no-issue/card-template-add_$-var
+
+[33mcommit 6db28bbae5cbd72d9bfbc8b5961f69adbf4941c5[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 28 17:47:24 2021 +0300
+
+    no-issue/card-template-add_$-var
+
+[33mcommit a41a70183b1dce721fbce198f8b74dc20b664b69[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 28 17:35:11 2021 +0300
+
+    no-issue/card-template-refactoring
+
+[33mcommit 144a0e76157edb689e931c7008cb185a205529ba[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 28 13:32:35 2021 +0300
+
+    no-issue/card-template-refactoring
+
+[33mcommit b94def5698fb9793aa5e03e9436e90538fc30a59[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 28 10:45:22 2021 +0300
+
+    no-issue/tsconfig
+
+[33mcommit 606216041a3500c9e0553b5e69f24bb7c00ccb52[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 28 10:43:31 2021 +0300
+
+    no-issue/file structure changed
+
+[33mcommit 0ea5526228832df4136b1f5e15bd3024707d975a[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Fri Jun 25 15:06:07 2021 +0300
+
+    /no-issue/edit eslint
+
+[33mcommit 5e1919b2f5e7c5cdbf16e31d75dbbe965a18feb4[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Fri Jun 25 14:41:31 2021 +0300
+
+    created template card of product
+
+[33mcommit 7821186823890ce667dd04c324897b783d4aca6a[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Fri Jun 25 09:55:41 2021 +0300
+
+    Refactoring Nav comp, SearchBarEventHandler and changed port in server side
+
+[33mcommit b899354928bc440ce1b3d4e5426430e8b8001bc5[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Thu Jun 24 16:52:48 2021 +0300
+
+    Created adaptive navbar and refactoring search-bar
+
+[33mcommit b33fdb08907a9ae4e8d7db19a84cde8072f065ea[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Thu Jun 24 10:07:16 2021 +0300
+
+    update header component
+
+[33mcommit 0fd4f551b752b0f099354a24c96dffd6e0b23674[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Wed Jun 23 18:08:57 2021 +0300
+
+    Created adaptive design Of Header
+
+[33mcommit 23a60eece944e3694eb9da228a67a9f0e8c3c68d[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Wed Jun 23 17:55:32 2021 +0300
+
+    Created adaptive search-panel
+
+[33mcommit c71095c2fb7a5ee903744d5fb140acf1aa61858e[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Wed Jun 23 17:28:06 2021 +0300
+
+    Header top panel created
+
+[33mcommit 8f46730e4d2c3ac19c765b29be4c8b19e9ffcf70[m[33m ([m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 21 18:29:39 2021 +0300
+
+    changed path template MR
+
+[33mcommit 18a2d50d03983b9097f3a8911559a64c807be2fc[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 21 18:19:19 2021 +0300
+
+    changed path template
+
+[33mcommit b64511529caf8f36b1290e4f417b998d13ca369b[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Mon Jun 21 18:16:21 2021 +0300
+
+    added templates MR and issues
+
+[33mcommit bbdafdc654d4b029d1e3e22e068880ec734e96b6[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Wed Jun 16 13:43:04 2021 +0300
+
+    Created sayHi func
+
+[33mcommit 7db0b1d2d5f30c228d5c5df7c726e1968c0833eb[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Wed Jun 16 13:27:47 2021 +0300
+
+    Added README
+
+[33mcommit 010d8f87cf60cc826805ce5fa1b7e5ad3fb26ee5[m
+Author: Vladislav Evtushenko <v.evtushenko@akvelon.com>
+Date:   Wed Jun 16 13:25:58 2021 +0300
+
+    Initial commit

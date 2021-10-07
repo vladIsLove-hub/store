@@ -1,0 +1,63 @@
+.search-dropdown {
+  transition: all .5s ease;
+  max-height: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  top: 42px;
+  background: #fff;
+  box-shadow: 0 0 9px #a09b9b;
+  z-index: 3;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.search-dropdown-visible {
+  max-height: 20rem;
+}
+
+// Item
+.search-dropdown-item {
+  grid-column-gap: 15px;
+  transition: all .2s ease;
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  font-family: 'Roboto', sans-serif;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 10% 40% 40%;
+  padding: 10px;
+  &:hover {
+    background-color: #965626;
+    color: #fff;
+  }
+  &:not(:last-child) {
+    border-bottom: 1px solid #c0c0c0;
+  }
+  @include xs {
+    padding: 5px;
+    font-size: 14px;
+  }
+}
+
+.search-dropdown-item span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-dropdown-item__img {
+  background-image: url('../../../icons/BookDropdownIcon.svg');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.message-visible {
+  display: inline;
+}
+
+.message-not-visible {
+  display: none;
+}

@@ -1,0 +1,17 @@
+.book-list {
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+    grid-gap: 30px;
+    margin-top: 30px;
+    padding: 0;
+    @include smx {
+        justify-content: center;
+    }
+}
+
+.book-list__no-book-found {
+    text-align: center;
+    color: #939494;
+    margin-top: 70px;
+}

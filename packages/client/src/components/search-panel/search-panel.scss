@@ -1,0 +1,65 @@
+.search-panel {
+    position: relative;
+    transition: all .3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #965626;
+    width: 55%;
+    border-radius: 5px;
+    &:hover {
+        border: 2px solid #e66808;
+    }
+    @include md {
+        width: 45%;
+    }
+    @include sm {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.search-panel__focused{
+    border: 2px solid #e66808;
+}
+
+.search-panel__icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.search-panel__input {
+    border: none;
+    width: 82%;
+    font-family: 'Loto', sans-serif;
+    font-weight: 500;
+}
+
+.search-panel__input:focus .search-panel {
+    border: 1px solid rgb(209, 0, 0);
+}
+
+.search-panel__input:focus {
+    outline: none;
+}
+
+.search-panel__btn {
+    color: #fff;
+    transition: all .3s ease;
+    padding: 6px 20px;
+    padding-right: 24px;
+    border: none;
+    background-color: #965626;
+    &:hover {
+        background-color: #e66808;
+    }
+    @include sm {
+        padding-right: 20px;
+    }
+}
+
+.search-panel__btn-disabled {
+    opacity: 0.8;
+    cursor: not-allowed;
+}

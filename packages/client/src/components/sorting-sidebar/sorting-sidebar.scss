@@ -1,0 +1,86 @@
+.sort-sidebar {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  position: fixed;
+  border-right: 1px solid #c0c0c0;
+  background-color: #fff;
+  width: 320px;
+  padding: 25px;
+  overflow: auto;
+  @include md {
+    opacity: 0;
+    z-index: -20;
+  }
+}
+
+.btn-main {
+  background-color: #965626;
+  color: #fff;
+  &:hover {
+    color: #fff;
+    background-color: #d67e3a;
+  }
+  &:focus {
+    box-shadow: 0 0 0 0.25rem #b663249d;
+  }
+}
+
+.btn__open-sidebar {
+  display: none;
+  padding: 15px;
+  width: 30px;
+  height: 30px;
+  background-image: url('../../icons/SortIcon.svg');
+  background-repeat: no-repeat;
+  @include md {
+      display: block;
+      position: absolute;
+      margin-top: 30px;
+      right: 20px;
+  }
+}
+
+// Sidebar-form
+
+.form-sort {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.form-sort__indent {
+  margin-bottom: 10px;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: #965626;
+  border-color: #965626;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #965626;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #965626b0;
+}
+
+.form-check-input:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #9656269d;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: #ffffff;
+}
+
+//OutgoingSidebar
+
+.offcanvas {
+  z-index: 4000;
+}

@@ -1,0 +1,29 @@
+.pagination-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.pagination {
+  box-shadow: 0px 0px 16px rgb(145, 145, 145);
+  border-radius: 6px;
+}
+
+.page-item.active .page-link {
+  background-color: #965626;
+  border-color: #965626;
+}
+
+.page-link {
+  color: #965626;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.page-link:hover {
+  color: #fff;
+  background-color: #e06a11c5;
+  border-color: #f37719c5;
+}

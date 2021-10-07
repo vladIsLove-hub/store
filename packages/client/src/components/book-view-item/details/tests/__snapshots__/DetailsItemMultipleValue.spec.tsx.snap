@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailsItemMultipleValue DetailsItem snapshot for MultipleEntityValues data 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="book-view_details-authors-menu accordion"
+      >
+        <div
+          class="accordion-item"
+        >
+          <h2
+            class="accordion-header"
+          >
+            <button
+              aria-expanded="false"
+              class="accordion-button collapsed"
+              type="button"
+            >
+              Authors: 
+            </button>
+          </h2>
+          <div
+            class="accordion-collapse collapse"
+          >
+            <div
+              class="accordion-body"
+            >
+              <ul>
+                <li>
+                  Name1
+                </li>
+                <li>
+                  Name2
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <li
+        class="book-view__details-list-item book-view__details-authors-info"
+      >
+        <div
+          class="book-view__details-list-item-left"
+        >
+          <span
+            class="book-view__details-list-item-name"
+          >
+            Title
+          </span>
+        </div>
+        <div
+          class="book-view__details-list-item-right"
+        >
+          <span
+            class="book-view__details-list-item-value"
+            data-testid="item-value"
+            title="Name1, Name2"
+          >
+            Name1, Name2
+          </span>
+        </div>
+      </li>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="book-view_details-authors-menu accordion"
+    >
+      <div
+        class="accordion-item"
+      >
+        <h2
+          class="accordion-header"
+        >
+          <button
+            aria-expanded="false"
+            class="accordion-button collapsed"
+            type="button"
+          >
+            Authors: 
+          </button>
+        </h2>
+        <div
+          class="accordion-collapse collapse"
+        >
+          <div
+            class="accordion-body"
+          >
+            <ul>
+              <li>
+                Name1
+              </li>
+              <li>
+                Name2
+              </li>
+               
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <li
+      class="book-view__details-list-item book-view__details-authors-info"
+    >
+      <div
+        class="book-view__details-list-item-left"
+      >
+        <span
+          class="book-view__details-list-item-name"
+        >
+          Title
+        </span>
+      </div>
+      <div
+        class="book-view__details-list-item-right"
+      >
+        <span
+          class="book-view__details-list-item-value"
+          data-testid="item-value"
+          title="Name1, Name2"
+        >
+          Name1, Name2
+        </span>
+      </div>
+    </li>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

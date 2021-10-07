@@ -1,0 +1,47 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    env_file: .db.env
+    ports: 
+      - 5344:5432
+    volumes: 
+      - data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer
+    restart: always
+    ports: 
+     - 8080:8080
+    links: 
+     - db
+    
+  server:
+    env_file: ./packages/server/.docker.env
+    build:
+      context: ./packages/server/
+      dockerfile: ./server.dockerfile
+      args:
+        - NODE_ENV=production
+    image: server:dev
+    ports:
+      - 5000:5000
+    depends_on:
+      - db
+
+  client:
+    build: 
+      context: ./packages/client/
+      dockerfile: ./client.dockerfile
+    environment: 
+      - NODE_EVN=production
+    ports:
+      - 3000:80
+    depends_on: 
+      - server
+    volumes: 
+      - ./packages/client/nginx/nginx.conf:/etc/nginx/nginx.conf
+  
+volumes:
+  data:
+    external: true
